@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishkarsh Awasthi | Full-Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <h2>Nishkarsh Awasthi</h2>
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">NA</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch"> -->
+                <!-- <label for="theme-switch" class="switch-label"> -->
+                    <!-- <span class="switch-slider"></span> -->
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Hi, I'm <span class="highlight">Nishkarsh Awasthi</span></h1>
+            <h2>A Full-Stack Developer</h2>
+            <p>Turning ideas into reality through code</p>
+            <div class="scroll-down">
+                <!-- <span class="arrow"></span>
+                <span class="text">Scroll Down</span> -->
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a passionate full-stack developer with a keen interest in creating elegant, efficient, and user-friendly web applications. With a strong foundation in both frontend and backend technologies, I strive to build seamless digital experiences that make a difference.</p>
+            <div class="skills">
+                <div class="skill">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">React</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">C++</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>It gives weather details about a specific place.</p>
+                    <div class="technologies">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Real-time location Tracker</h3>
+                    <p>Another amazing project showcasing different skills.</p>
+                    <div class="technologies">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>Socket.io</span>
+                    </div>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Animation Based Website</h3>
+                    <p>A mobile app developed using cutting-edge technologies.</p>
+                    <div class="technologies">
+                        <span>GSAP</span>
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 4</h3>
+                    <p>An innovative web application solving real-world problems.</p>
+                    <div class="technologies">
+                        <span>Angular</span>
+                        <span>Django</span>
+                        <span>Python</span>
+                    </div>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <form form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+                <div  class="form-group">
+                    <input type="hidden" name="access_key" value="378eaf28-5e9b-45a4-be08-d0d147f0ea68">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/nishkarsh525" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+           </a>
+            <a href="https://www.linkedin.com/in/nishkarshawasthi" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/nish_karshh" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <p>&copy; 2024 Nishkarsh Awasthi. All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
